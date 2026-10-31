@@ -1,0 +1,11 @@
+[project]
+name = "ch1-fastapi-intro"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard]>=0.136.3",
+    "groq>=1.2.0",
+    "streamlit>=1.66.1",
+]
